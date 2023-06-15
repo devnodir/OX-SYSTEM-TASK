@@ -1,7 +1,6 @@
 import axios from "axios";
 import { getLocalStorage, removeLocalStorage } from "./localStorage";
 import { USER_SUB_DOMAIN, USER_TOKEN } from "./variables";
-import useAppSelector from "@/hooks/useAppSelector";
 import { setIsAuth } from "./dispatch";
 
 const api = axios.create();
