@@ -1,0 +1,18 @@
+@import "./layout/layout.scss";
+@import "./components/Loader/loader.scss";
+
+@import "./pages/Login/login.scss";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #f5f6f7;
+	height: 100vh;
+}
+
+#root {
+	height: 100%;
+}
